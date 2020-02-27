@@ -1,0 +1,37 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px;
+  border: 5px solid pink;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+
+
+.title {
+    font-size: 70px;
+    color: blueviolet;
+   
+}
+
+table {
+    margin-top: 30px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px solid #cc7edd;
+
+}
+
+
+td {
+    width: 100px;
+    height: 100px;
+    background:pink;
+}
+
