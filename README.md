@@ -121,12 +121,12 @@ combining your code with any user interface, whether web or command line.
 
 **Mapping**
 
-*A1 =  squares[0][0]
-*B1 = squares[0][1]
-*C1 = squares[0][2]
-*A2 = squares[1][0]
-*B2 = squares[1][1]
-*C2 = squares[1][2]
-*A3 = squares[2][0]
-*B3 = squares[2][1]
-*C3 = squares[2][2]
+* A1 =  squares[0][0]
+* B1 = squares[0][1]
+* C1 = squares[0][2]
+* A2 = squares[1][0]
+* B2 = squares[1][1]
+* C2 = squares[1][2]
+* A3 = squares[2][0]
+* B3 = squares[2][1]
+* C3 = squares[2][2]
