@@ -16,6 +16,12 @@ describe("Board", function() {
       board.switchTurn()
       expect(board.currentPlayer()).toEqual("O")
     });
+
+    it("Players see a message telling them whose turn it is", function() {
+      board.switchTurn() // now player O's turn
+      expect(board.flashMessage()).toEqual("It's Player O's turn")
+          
+    });
   });
 
 });
