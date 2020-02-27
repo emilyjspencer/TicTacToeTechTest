@@ -27,3 +27,7 @@ Board.prototype.flashMessage = function() {
 Board.prototype.openingMessage = function() {
   return "Player X gets to start!"
 }
+
+Board.prototype.startGame = function() {
+  return this.openingMessage()
+}

@@ -13,6 +13,11 @@ describe("Board", function() {
     it('players see a message at start of game saying Player X starts first', function(){
       expect(board.openingMessage()).toEqual("Player X gets to start!")
     });
+
+    it('players see a message at start of game saying Player X starts first', function(){
+      board.startGame()
+      expect(board.openingMessage()).toEqual("Player X gets to start!")
+    });
   });
 
   describe('switch turns', function() {
