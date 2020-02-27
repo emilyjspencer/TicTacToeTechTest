@@ -4,7 +4,7 @@
 
 This is a tech test taken during Week 10 of the Makers Academy course. 
 
-Click [here](#The Brief) for the brief.
+Click [here](#brief) for the brief.
 The link to the user stories (created by me and based on the specification) can be found [here](#user-stories)
 
 ## Technologies & Design Principles
@@ -40,9 +40,8 @@ Run the tests by opening the SpecRunner.html file
 
 ```
 
-## The Brief
+## Brief
 
-The brief
 The rules of tic-tac-toe are as follows:
 
 There are two players in the game (X and O)
@@ -55,3 +54,28 @@ A game is over when all fields are taken
 Build the business logic for a game of tic tac toe. 
 It should be easy to implement a working game of tic tac toe by 
 combining your code with any user interface, whether web or command line.
+
+
+* The board is composed of nine squares
+* Each square can be claimed by a player
+* Player 1 goes first and is distinguished by an 'X'
+* Player 2 goes second and is distinguished by an 'O'
+* The squares are labelled as follows(from left to right):
+
+* A1 A2 A3
+* B1 B2 B3
+* C1 C2 C3
+
+* There are eight possible winning combinations for each player:
+* For player 1:
+* Horizontally: 
+- A1 A2 A3
+- B1 B2 B3
+- C1 C2 C3
+- Vertically:
+- A1 B1 C1
+- A2  B2 C2
+- A3 B2 C3
+- Diagonally:
+- A1 B2 C3
+- C1 B2 A3
