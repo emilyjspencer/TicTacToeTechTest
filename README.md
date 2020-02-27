@@ -130,3 +130,12 @@ combining your code with any user interface, whether web or command line.
 * A3 = squares[2][0]
 * B3 = squares[2][1]
 * C3 = squares[2][2]
+
+Winning Combinations:
+
+
+winningCombinations =[
+ [A1, A2, A3], [B1, B2, B3], [C1, C2, C3],
+ [A1, B1, C1], [A2, B2, C2], [A3, B3, C3],
+ [A1, B2, C3] [C1, B2, A3]
+];
