@@ -10,7 +10,7 @@ The link to the user stories (created by me and based on the specification) can 
 ## Technologies & Design Principles
 
 
-## User Stories based on the brief
+## User Stories
 #user-stories
 ```
 As player X,
@@ -54,7 +54,7 @@ I want to see a message that tells me I have won
 Clone my code by typing the following into the command line.<br>
 
 ```
-$ git clone https://github.com/emilyjspencer/TicTacToe.git
+$ git clone https://github.com/emilyjspencer/TicTacToeTechTest.git
 
 ```
 
