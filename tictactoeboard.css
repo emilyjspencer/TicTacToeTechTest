@@ -10,6 +10,17 @@ h1 {
   margin: 0 auto;
 }
 
+#resetgamebutton {
+  width: 100px;
+  height: 200px;
+  color: pink;
+}
+
+#startgamebutton {
+  width: 100px;
+  height: 200px;
+  color: pink;
+}
 
 
 .title {
