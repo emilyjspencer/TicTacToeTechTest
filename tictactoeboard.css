@@ -6,6 +6,15 @@ h1 {
   border: 5px solid pink;
 }
 
+
+
+#header { 
+  background-color: #cc7edd;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
 #container {
   margin: 0 auto;
 }
@@ -21,6 +30,8 @@ h1 {
   height: 200px;
   color: pink;
 }
+
+
 
 
 .title {
