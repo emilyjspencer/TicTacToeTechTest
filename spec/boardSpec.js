@@ -15,7 +15,7 @@ describe("Board", function() {
     });
 
     it("no squares have been claimed", function() {
-      expect(board.squares).toEqual(["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"])
+      expect(board.squares).toEqual([["empty", "empty", "empty"],["empty", "empty", "empty"], ["empty", "empty", "empty"]])
     });
   });
 
@@ -33,9 +33,12 @@ describe("Board", function() {
   
   describe('seeSquares', function() {
     it('shows the boards squares', function(){
-     expect(board.seeSquares()).toEqual(["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"])
+     expect(board.seeSquares()).toEqual([["empty", "empty", "empty"], ["empty", "empty", "empty"], ["empty", "empty", "empty"]])
     });
   });
+  
+
+
 });
   //describe('selectSquare', function() {
     //it("Player X can select a square", function(){

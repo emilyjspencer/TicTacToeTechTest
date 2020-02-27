@@ -1,6 +1,11 @@
 function Board() {
   this.player = "X"
-  this.squares = ["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"]
+  this.squares =  
+  [
+    ["empty", "empty", "empty"],
+    ["empty", "empty", "empty"],
+    ["empty", "empty", "empty"]
+  ]
 }; 
 
 Board.prototype.currentPlayer = function() {
