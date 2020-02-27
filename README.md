@@ -56,6 +56,10 @@ It should be easy to implement a working game of tic tac toe by
 combining your code with any user interface, whether web or command line.
 
 
+
+**Plan**
+
+
 * The board is composed of nine squares
 * Each square can be claimed by a player
 * Player 1 goes first and is distinguished by an 'X'
@@ -68,14 +72,17 @@ combining your code with any user interface, whether web or command line.
 
 * There are eight possible winning combinations for each player:
 * For player 1:
+
 * Horizontally: 
 - A1 A2 A3
 - B1 B2 B3
 - C1 C2 C3
+
 - Vertically:
 - A1 B1 C1
 - A2  B2 C2
 - A3 B2 C3
+
 - Diagonally:
 - A1 B2 C3
 - C1 B2 A3
