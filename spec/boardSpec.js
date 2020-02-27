@@ -9,6 +9,10 @@ describe("Board", function() {
     it("Player 1 makes the first move", function() {
       expect(board.currentPlayer()).toEqual("X")
     });
+
+    it('players see a message at start of game saying Player X starts first', function(){
+      expect(board.openingMessage()).toEqual("Player X gets to start!")
+    });
   });
 
   describe('switch turns', function() {
@@ -24,4 +28,10 @@ describe("Board", function() {
     });
   });
 
+ 
 });
+  //describe('selectSquare', function() {
+    //it("Player X can select a square", function(){
+
+    //});
+

@@ -23,3 +23,7 @@ Board.prototype.flashMessage = function() {
     return "It's Player O's turn";
   };
 };
+
+Board.prototype.openingMessage = function() {
+  return "Player X gets to start!"
+}
