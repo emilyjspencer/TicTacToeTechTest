@@ -14,9 +14,8 @@ describe("Board", function() {
       expect(board.openingMessage()).toEqual("Player X gets to start!")
     });
 
-    it('players see a message at start of game saying Player X starts first', function(){
-      board.startGame()
-      expect(board.openingMessage()).toEqual("Player X gets to start!")
+    it("no squares have been claimed", function() {
+      expect(board.squares).toEqual(["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"])
     });
   });
 
@@ -28,12 +27,15 @@ describe("Board", function() {
 
     it("Players see a message telling them whose turn it is", function() {
       board.switchTurn() // now player O's turn
-      expect(board.flashMessage()).toEqual("It's Player O's turn")
-          
+      expect(board.flashMessage()).toEqual("It's Player O's turn")     
     });
   });
-
- 
+  
+  describe('seeSquares', function() {
+    it('shows the boards squares', function(){
+     expect(board.seeSquares()).toEqual(["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"])
+    });
+  });
 });
   //describe('selectSquare', function() {
     //it("Player X can select a square", function(){

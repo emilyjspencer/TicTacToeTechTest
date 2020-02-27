@@ -1,5 +1,6 @@
 function Board() {
   this.player = "X"
+  this.squares = ["empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty", "empty"]
 }; 
 
 Board.prototype.currentPlayer = function() {
@@ -31,3 +32,7 @@ Board.prototype.openingMessage = function() {
 Board.prototype.startGame = function() {
   return this.openingMessage()
 }
+
+Board.prototype.seeSquares = function() {
+  return this.squares;
+};
