@@ -13,6 +13,37 @@ The link to the user stories (created by me and based on the specification) can 
 ## User Stories based on the brief
 #user-stories
 ```
+As player X,
+Since the random number generator selected me
+I want to be able to select a square first
+
+As player X,
+Since I was selected to make the first move
+I want to see a message that tells me that I get to start first
+
+As a player,
+So that I can play Tic-Tac-Toe
+I want to be able to have a turn
+
+As a player,
+So that I can select a square
+I want to be able to switch turns
+
+As a player,
+So that I know whose turn it is
+I want to see a message that tells me whose turn it is
+
+As a player,
+If I try to select a square that my opponent has already selected
+I want to see a message that tells me the square is occupied
+
+As a player,
+So that I can win,
+I want to be able to select 3 squares which make a winning combination
+
+As the winning player,
+So I know for certain that I have won,
+I want to see a message that tells me I have won
 
 
 
